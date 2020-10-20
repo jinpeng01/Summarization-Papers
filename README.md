@@ -24,7 +24,7 @@ This repo contains a list of summarization papers including various topics. If a
       * [Multi-Document](#multi-document) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
       * [Cross-Lingual](#cross-lingual) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
       * [Unsupervised](#unsupervised) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Multi-modal](#multi-modal-1) ![](https://img.shields.io/badge/-ing-orange)
+      * [Multi-modal](#multi-modal-1) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
       * [Concept-map-based](#concept-map-based) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
       * [Timeline](#timeline) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
       * [Opinion](#opinion) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
@@ -344,37 +344,32 @@ This repo contains a list of summarization papers including various topics. If a
 10. **Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression and Budgeted Submodular Maximization** *Guokan Shang, Wensi Ding, Zekun Zhang, Antoine Tixier, Polykarpos Meladianos, Michalis Vazirgiannis, Jean-Pierre Lorré* `ACL18` [[pdf]](https://arxiv.org/abs/1805.05271) [[code]](https://bitbucket.org/dascim/acl2018_abssumm)
 
 ## Multi-modal
-<details><summary>papers</summary><p>
 
-| Paper | Conference |
-| :---: | :---: |
-|[VMSMO: Learning to Generate Multimodal Summary for Video-based News Articles](https://arxiv.org/abs/2010.05406)|EMNLP20|[Data](https://github.com/yingtaomj/VMSMO)|
-|[Multi-modal Summarization for Video-containing Documents](https://arxiv.org/abs/2009.08018)||
-|[Text-Image-Video Summary Generation Using Joint Integer Linear Programming](https://link.springer.com/chapter/10.1007/978-3-030-45442-5_24)|ECIR20|
-|[Aspect-Aware Multimodal Summarization for Chinese E-Commerce Products](https://aaai.org/ojs/index.php/AAAI/article/view/6332/6188)|AAAI20|
-|[Convolutional Hierarchical Attention Network for Query-Focused Video Summarization](https://arxiv.org/abs/2002.03740)|AAAI20|
-|[Multimodal Summarization with Guidance of Multimodal Reference](https://aaai.org/ojs/index.php/AAAI/article/view/6525/6381)|AAAI20|
-|[EmotionCues: Emotion-Oriented Visual Summarization of Classroom Videos](https://ieeexplore.ieee.org/document/8948010)|IEEE20|
-|[A Survey on Automatic Summarization Using Multi-Modal Summarization System for Asynchronous Collections](http://www.ijirset.com/upload/2019/february/4_shilpa_IEEE.pdf)||
-|[Extractive summarization of documents with images based on multi-modal RNN](https://research.aston.ac.uk/en/publications/extractive-summarization-of-documents-with-images-based-on-multi-)||
-|[Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization](https://www.aclweb.org/anthology/P19-1210/)|ACL19|
-|[Multimodal Abstractive Summarization for How2 Videos](https://www.aclweb.org/anthology/P19-1659/) | ACL19 |
-|[MSMO: Multimodal Summarization with Multimodal Output](https://www.aclweb.org/anthology/D18-1448/)|EMNLP18|
-|[Abstractive Text-Image Summarization Using Multi-Modal Attentional Hierarchical RNN](https://www.aclweb.org/anthology/D18-1438/)|EMNLP18|
-|[Multi-modal Sentence Summarization with Modality Attention and Image Filtering](https://www.ijcai.org/Proceedings/2018/0577.pdf) | IJCAI18 |
-|[How2: A Large-scale Dataset for Multimodal Language Understanding](https://arxiv.org/abs/1811.00347)|NIPS18|
-|[Multimodal Abstractive Summarization for Open-Domain Videos](https://nips2018vigil.github.io/static/papers/accepted/8.pdf) | NIPS18|
-|[Read, Watch, Listen, and Summarize: Multi-Modal Summarization for Asynchronous Text, Image, Audio and Video](https://ieeexplore.ieee.org/document/8387512)|IEEE18|
-|[Fusing Verbal and Nonverbal Information for Extractive Meeting Summarization](https://dl.acm.org/doi/10.1145/3279981.3279987)|GIFT18|
-|[Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video](https://www.aclweb.org/anthology/D17-1114/) | EMNLP17 |
-|[Meeting Extracts for Discussion Summarization Based on Multimodal Nonverbal Information](https://dl.acm.org/doi/10.1145/2993148.2993160)|ICMI16|
-|[Summarizing a multimodal set of documents in a Smart Room](https://www.aclweb.org/anthology/L12-1524/)|LREC12|
-|[Multi-modal summarization of key events and top players in sports tournament videos](https://eprints.qut.edu.au/43479/1/WACV_266_%281%29.pdf)|2011 IEEE Workshop on Applications of Computer Vision|
-|[Multimodal Summarization of Complex Sentences](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2011/multimodal_summarization.pdf)||
-|[Summarization of Multimodal Information](http://www.lrec-conf.org/proceedings/lrec2004/pdf/502.pdf)|LREC04|
-| [Multimodal Summarization of Meeting Recordings](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.862.6509&rep=rep1&type=pdf)|ICME 03|
-</p></details>
-
+1. **MAST: Multimodal Abstractive Summarization with Trimodal Hierarchical Attention** *Aman Khullar, Udit Arora* `EMNLP20 Workshop` [[pdf]](https://arxiv.org/abs/2010.08021) [[code]](https://github.com/amankhullar/mast)
+2. **VMSMO: Learning to Generate Multimodal Summary for Video-based News Articles** *Mingzhe Li, Xiuying Chen, Shen Gao, Zhangming Chan, Dongyan Zhao, Rui Yan* `EMNLP20` [[pdf]](https://arxiv.org/abs/2010.05406) [[data]](https://github.com/yingtaomj/VMSMO)
+3. **Multi-modal Summarization for Video-containing Documents** *Xiyan Fu, Jun Wang, Zhenglu Yang* [[pdf]](https://arxiv.org/abs/2009.08018)
+4. **Text-Image-Video Summary Generation Using Joint Integer Linear Programming** *Anubhav Jangra, Adam Jatowt, Mohammad Hasanuzzaman, Sriparna Saha* `ECIR20` [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-45442-5_24)
+5. **Aspect-Aware Multimodal Summarization for Chinese E-Commerce Products** *Haoran Li, Peng Yuan, Song Xu, Youzheng Wu, Xiaodong He, Bowen Zhou* `AAAI20` [[pdf]](https://aaai.org/ojs/index.php/AAAI/article/view/6332/6188)
+6. **Convolutional Hierarchical Attention Network for Query-Focused Video Summarization** *Shuwen Xiao, Zhou Zhao, Zijian Zhang, Xiaohui Yan, Min Yang* `AAAI20` [[pdf]](https://arxiv.org/abs/2002.03740)
+7. **Multimodal Summarization with Guidance of Multimodal Reference** *Junnan Zhu, Yu Zhou, Jiajun Zhang, Haoran Li, Chengqing Zong, Changliang Li* `AAAI20` [[pdf]](https://aaai.org/ojs/index.php/AAAI/article/view/6525/6381)
+8. **EmotionCues: Emotion-Oriented Visual Summarization of Classroom Videos** *Haipeng Zeng, Xinhuan Shu, Yanbang Wang, Yong Wang, Liguo Zhang, Ting-Chuen Pong, Huamin Qu*  [[pdf]](https://ieeexplore.ieee.org/document/8948010) 
+9. **A Survey on Automatic Summarization Using Multi-Modal Summarization System for Asynchronous Collections** *Shilpadevi Vasant Bhagwat, Sheetal .S. Thokal* [[pdf]](http://www.ijirset.com/upload/2019/february/4_shilpa_IEEE.pdf)
+10. **Extractive summarization of documents with images based on multi-modal RNN** *Jingqiang Chen, Hai Zhuge*  [[pdf]](https://research.aston.ac.uk/en/publications/extractive-summarization-of-documents-with-images-based-on-multi-)
+11. **Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization** *Manling Li, Lingyu Zhang, Heng Ji, Richard J. Radke* `ACL19` [[pdf]](https://www.aclweb.org/anthology/P19-1210/)
+12. **Multimodal Abstractive Summarization for How2 Videos** *Shruti Palaskar, Jindřich Libovický, Spandana Gella, Florian Metze* `ACL19` [[pdf]](https://www.aclweb.org/anthology/P19-1659/)
+13. **MSMO: Multimodal Summarization with Multimodal Output** *Junnan Zhu, Haoran Li, Tianshang Liu, Yu Zhou, Jiajun Zhang, Chengqing Zong* `EMNLP18` [[pdf]](https://www.aclweb.org/anthology/D18-1448/) [[data]](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm)
+14. **Abstractive Text-Image Summarization Using Multi-Modal Attentional Hierarchical RNN** *Jingqiang Chen, Hai Zhuge* `EMNLP18` [[pdf]](https://www.aclweb.org/anthology/D18-1438/)
+15. **Multi-modal Sentence Summarization with Modality Attention and Image Filtering** *Haoran Li, Junnan Zhu, Tianshang Liu, Jiajun Zhang, Chengqing Zong* `IJCAI18` [[pdf]](https://www.ijcai.org/Proceedings/2018/0577.pdf) 
+16. **Multimodal Abstractive Summarization for Open-Domain Videos** *Jindrich Libovický, Shruti Palaskar, Spandana Gella, Florian Metze* `NIPS18` [[pdf]](https://nips2018vigil.github.io/static/papers/accepted/8.pdf) [[data]](https://github.com/srvk/how2-dataset)
+17. **Read, Watch, Listen, and Summarize: Multi-Modal Summarization for Asynchronous Text, Image, Audio and Video** *Haoran Li, Junnan Zhu, Cong Ma, Jiajun Zhang, Chengqing Zong* [[pdf]](https://ieeexplore.ieee.org/document/8387512)
+18. **Fusing Verbal and Nonverbal Information for Extractive Meeting Summarization** *Fumio Nihei, Yukiko  Nakano, Yukiko I. Nakano, Yutaka  Takase, Yutaka Takase* `GIFT18` [[pdf]](https://dl.acm.org/doi/10.1145/3279981.3279987)
+19. **Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video** *Haoran Li, Junnan Zhu, Cong Ma, Jiajun Zhang, Chengqing Zong* `EMNLP17` [[pdf]](https://www.aclweb.org/anthology/D17-1114/) 
+20. **Meeting Extracts for Discussion Summarization Based on Multimodal Nonverbal Information** *Fumio Nihei, Yukiko  Nakano, Yukiko I. Nakano, Yutaka  Takase, Yutaka Takase* `ICMI16` [[pdf]](https://dl.acm.org/doi/10.1145/2993148.2993160) 
+21. **Summarizing a multimodal set of documents in a Smart Room** *Maria Fuentes, Horacio Rodríguez, Jordi Turmo* `LREC12` [[pdf]](https://www.aclweb.org/anthology/L12-1524/)
+22. **Multi-modal summarization of key events and top players in sports tournament videos** *Dian Tjondronegoro, Xiaohui Tao, Johannes Sasongko and Cher Han Lau* [[pdf]](https://eprints.qut.edu.au/43479/1/WACV_266_%281%29.pdf) 
+23. **Multimodal Summarization of Complex Sentences** *Naushad UzZaman, Jeffrey P. Bigham, James F. Allen* [[pdf]](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2011/multimodal_summarization.pdf)
+24. **Summarization of Multimodal Information** *Saif Ahmad, Paulo C F de Oliveira, Khurshid Ahmad* `LREC04` [[pdf]](http://www.lrec-conf.org/proceedings/lrec2004/pdf/502.pdf)
+25. **Multimodal Summarization of Meeting Recordings** *Berna Erol, Dar-Shyang Lee, and Jonathan Hull* `ICME03` [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.862.6509&rep=rep1&type=pdf)
 
 ## Concept-map-based
 
@@ -404,6 +399,7 @@ This repo contains a list of summarization papers including various topics. If a
 6. **Deep Communicating Agents for Abstractive Summarization** *Asli Celikyilmaz, Antoine Bosselut, Xiaodong He, Yejin Choi* `NAACL18` [[pdf]](https://arxiv.org/abs/1803.10357)
 7. **Ranking Sentences for Extractive Summarization with Reinforcement Learning** *Shashi Narayan, Shay B. Cohen, Mirella Lapata* `NAACL18` [[pdf]](https://www.aclweb.org/anthology/N18-1158/) [[code]](https://github.com/EdinburghNLP/Refresh)
 8. **A Deep Reinforced Model For Abstractive Summarization** *Romain Paulus, Caiming Xiong, Richard Socher* `ICLR18` [[pdf]](https://arxiv.org/abs/1705.04304)
+
 ## Reward Learning
 
 1. **Learning to summarize from human feedback** *Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, Paul Christiano* [[pdf]](https://arxiv.org/abs/2009.01325) [[code]](https://github.com/openai/summarize-from-feedback)

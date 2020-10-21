@@ -457,6 +457,8 @@ This repo contains a list of summarization papers including various topics. If a
 </p></details>
 
 ## Abstractive
+1. **Topic-Aware Abstractive Text Summarization** *Chujie Zheng, Kunpeng Zhang, Harry Jiannan Wang, Ling Fan* [[pdf]](https://arxiv.org/abs/2010.10323) [[code]](https://github.com/taas-www21/taas)
+
 <details><summary>papers</summary><p>
 
 | Paper | Conference |

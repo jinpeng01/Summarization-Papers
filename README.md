@@ -11,36 +11,35 @@ This repo contains a list of summarization papers including various topics. If a
 ## Content
    * [Summarization Papers](#summarization-papers)
       * [Content](#content)
-      * [Presentations &amp;&amp; Notes](#presentations--notes) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Survey](#survey) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
+      * [Presentations &amp;&amp; Notes](#presentations--notes)
+      * [Survey](#survey) 
       * [Dataset](#dataset) ![](https://img.shields.io/badge/-ing-orange)
-      * [Scientific Document](#scientific-document) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Factual Consistency](#factual-consistency) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Sentiment Related](#sentiment-related) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Pretrain Based](#pretrain-based) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Style](#style) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Dialogue](#dialogue)![](https://img.shields.io/badge/-ing-orange)
-      * [Graph-Based](#graph-based) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Multi-Document](#multi-document) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Cross-Lingual](#cross-lingual) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Unsupervised](#unsupervised) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Multi-modal](#multi-modal-1) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Concept-map-based](#concept-map-based) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Timeline](#timeline) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Opinion](#opinion) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Reinforcement Learning](#reinforcement-learning) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Reward Learning](#reward-learning) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Controlled](#controlled) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Analysis](#analysis) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Theory](#theory) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Extractive](#extractive) ![](https://img.shields.io/badge/-ing-orange)
+      * [Scientific Document](#scientific-document)
+      * [Factual Consistency](#factual-consistency) 
+      * [Sentiment Related](#sentiment-related) 
+      * [Pretrain Based](#pretrain-based) 
+      * [Style](#style)
+      * [Dialogue](#dialogue) ![](https://img.shields.io/badge/-ing-orange)
+      * [Graph-Based](#graph-based) 
+      * [Multi-Document](#multi-document)
+      * [Cross-Lingual](#cross-lingual) 
+      * [Unsupervised](#unsupervised) 
+      * [Multi-modal](#multi-modal-1) 
+      * [Concept-map-based](#concept-map-based) 
+      * [Timeline](#timeline) 
+      * [Opinion](#opinion)
+      * [Reinforcement Learning](#reinforcement-learning) 
+      * [Reward Learning](#reward-learning)
+      * [Controlled](#controlled)
+      * [Analysis](#analysis)
+      * [Theory](#theory)
+      * [Extractive](#extractive) 
       * [Abstractive](#abstractive) ![](https://img.shields.io/badge/-ing-orange)
-      * [Extractive-Abstractive](#extractive-abstractive) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Syntactic](#syntactic) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [QA Related](#qa-related) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Evaluation](#evaluation) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-      * [Toolkit](#toolkit) ![](https://img.shields.io/badge/-refactor_done-brightgreen)
-
+      * [Extractive-Abstractive](#extractive-abstractive)
+      * [Syntactic](#syntactic)
+      * [QA Related](#qa-related)
+      * [Evaluation](#evaluation)
+      * [Toolkit](#toolkit)
 ## Presentations && Notes
 > **Presentations** and **Notes** I have made for Summarization in our group.
 
@@ -441,24 +440,19 @@ This repo contains a list of summarization papers including various topics. If a
 3. **BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle** *Peter West, Ari Holtzman, Jan Buys, Yejin Choi* `EMNLP19` [[pdf]](https://arxiv.org/abs/1909.07405) [[code]](https://github.com/peterwestuw/BottleSum)
 
 ## Extractive
-<details><summary>papers</summary><p>
-
-| Paper | Conference |
-| :---: | :---: |
-|[Summarize, Outline, and Elaborate: Long-Text Generation via Hierarchical Supervision from Extractive Summaries](https://arxiv.org/abs/2010.07074)||
-|[SupMMD: A Sentence Importance Model for Extractive Summarization using Maximum Mean Discrepancy](https://arxiv.org/abs/2010.02568)||
-|[Stepwise Extractive Summarization and Planning with Structured Transformers](https://arxiv.org/abs/2010.02744)|EMNLP20|
-|[A Discourse-Aware Neural Extractive Model for Text Summarization](http://www.cs.utexas.edu/~jcxu/material/ACL20/DiscoBERT_ACL2020.pdf)|ACL20|
-|[Reading Like HER: Human Reading Inspired Extractive Summarization](https://www.aclweb.org/anthology/D19-1300/)|EMNLP19|
-| [Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks](https://www.aclweb.org/anthology/P18-1014/)|ACL18|
-| [Neural Document Summarization by Jointly Learning to Score and Select Sentences](https://www.aclweb.org/anthology/P18-1061/)|ACL18|
-| [Neural Latent Extractive Document Summarization](https://www.aclweb.org/anthology/D18-1088/)|ACL18|
-|[Generative Adversarial Network for Abstractive Text Summarization](https://arxiv.org/abs/1711.09357)|AAAI18|
-|[Improving Neural Abstractive Document Summarization with Explicit Information Selection Modeling](https://www.aclweb.org/anthology/D18-1205/)|EMNLP18|
-| [Extractive Summarization Using Multi-Task Learning with Document Classification](https://www.aclweb.org/anthology/D17-1223/)|EMNLP17|
-| [SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents](https://arxiv.org/abs/1611.04230)|AAAI17|
-| [Text Summarization through Entailment-based Minimum Vertex Cover](https://www.aclweb.org/anthology/S14-1010/)|ENLG13|
-</p></details>
+1. **Summarize, Outline, and Elaborate: Long-Text Generation via Hierarchical Supervision from Extractive Summaries** *Xiaofei Sun, Chun Fan, Zijun Sun, Yuxian Meng, Fei Wu, Jiwei Li* [[pdf]](https://arxiv.org/abs/2010.07074) [[code]]() 
+2. **SupMMD: A Sentence Importance Model for Extractive Summarization using Maximum Mean Discrepancy** *Umanga Bista, Alexander Patrick Mathews, Aditya Krishna Menon, Lexing Xie* [[pdf]](https://arxiv.org/abs/2010.02568) [[code]](https://github.com/computationalmedia/supmmd) 
+3. **Stepwise Extractive Summarization and Planning with Structured Transformers** *Shashi Narayan, Joshua Maynez, Jakub Adamek, Daniele Pighin, Blaž Bratanič, Ryan McDonald* `EMNLP20` [[pdf]](https://arxiv.org/abs/2010.02744) [[code]](https://github.com/google-research/google-research/tree/master/etcsum) 
+4. **A Discourse-Aware Neural Extractive Model for Text Summarization** *Jiacheng Xu, Zhe Gan, Yu Cheng, Jingjing Liu* `ACL20` [[pdf]](https://arxiv.org/abs/1910.14142) [[code]](https://github.com/jiacheng-xu/DiscoBERT) 
+5. **Reading Like HER: Human Reading Inspired Extractive Summarization** *Ling Luo, Xiang Ao, Yan Song, Feiyang Pan, Min Yang, Qing He* `EMNLP19` [[pdf]](https://www.aclweb.org/anthology/D19-1300/)
+6. **Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks** *Aishwarya Jadhav, Vaibhav Rajan* `ACL18` [[pdf]](https://www.aclweb.org/anthology/P18-1014/)
+7. **Neural Document Summarization by Jointly Learning to Score and Select Sentences** *Qingyu Zhou, Nan Yang, Furu Wei, Shaohan Huang, Ming Zhou, Tiejun Zhao* `ACL18` [[pdf]](https://www.aclweb.org/anthology/P18-1061/)
+8. **Neural Latent Extractive Document Summarization** *Xingxing Zhang, Mirella Lapata, Furu Wei, Ming Zhou* `ACL18` [[pdf]](https://www.aclweb.org/anthology/D18-1088/)
+9. **Generative Adversarial Network for Abstractive Text Summarization** *Linqing Liu, Yao Lu, Min Yang, Qiang Qu, Jia Zhu, Hongyan Li* `AAAI18` [[pdf]](https://arxiv.org/abs/1711.09357) [[code]](https://github.com/iwangjian/textsum-gan)
+10. **Improving Neural Abstractive Document Summarization with Explicit Information Selection Modeling** *Wei Li, Xinyan Xiao, Yajuan Lyu, Yuanzhuo Wang* `EMNLP18`[[pdf]](https://www.aclweb.org/anthology/D18-1205/)
+11. **Extractive Summarization Using Multi-Task Learning with Document Classification** *Masaru Isonuma, Toru Fujino, Junichiro Mori, Yutaka Matsuo, Ichiro Sakata* `EMNLP17` [[pdf]](https://www.aclweb.org/anthology/D17-1223/) 
+12. **SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents** *Ramesh Nallapati, Feifei Zhai, Bowen Zhou* `AAAI17` [[pdf]](https://arxiv.org/abs/1611.04230) [[code]](https://github.com/hpzhao/SummaRuNNer)
+13. **Text Summarization through Entailment-based Minimum Vertex Cover** *Anand Gupta, Manpreet Kaur, Shachar Mirkin, Adarsh Singh, Aseem Goyal* `ENLG13` [[pdf]](https://www.aclweb.org/anthology/S14-1010/)
 
 ## Abstractive
 1. **Topic-Aware Abstractive Text Summarization** *Chujie Zheng, Kunpeng Zhang, Harry Jiannan Wang, Ling Fan* [[pdf]](https://arxiv.org/abs/2010.10323) [[code]](https://github.com/taas-www21/taas)
